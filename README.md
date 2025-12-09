@@ -203,4 +203,4 @@ o dentro de:
 👨‍💻 Autor
 
 Iván Pareja
-Ingeniería en Informática – UNIACC (2025)
+Ingeniería en Informática Multimedia – UNIACC (2025)
