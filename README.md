@@ -34,7 +34,7 @@ Aplicar estilos consistentes con diseño móvil.
 Generar un APK instalable.
 
 Documentar el proceso, dificultades y soluciones encontradas.
-
+```bash
 📂 Estructura del Proyecto
 mi-habito/
 │
@@ -55,12 +55,12 @@ mi-habito/
 ├── package.json
 ├── README.md
 └── ...
-
+```
 
 📌 El APK generado se encuentra en:
-
+```bash
 android/app/build/outputs/apk/debug/app-debug.apk
-
+```
 
 (o dentro de la carpeta /apk, según corresponda en GitHub)
 
@@ -105,13 +105,16 @@ Capacitor
 Android Studio
 
 ▶ Ejecutar en Navegador
+```bash
 npm install
 ionic serve
-
+``` 
 ▶ Ejecutar en Emulador Android
+```bash
 ionic build
 npx cap sync android
 npx cap open android
+```
 
 
 Luego, desde Android Studio:
@@ -120,21 +123,23 @@ Run ▶
 📦 Cómo Generar el APK (no firmado)
 
 Ejecutar:
-
+```bash
 ionic build
 npx cap sync android
 npx cap open android
-
+```
 
 En Android Studio:
 
+```bash
 Build → Build Bundle(s) / APK(s) → Build APK(s)
-
+```
 
 El archivo aparecerá en:
 
+```bash
 android/app/build/outputs/apk/debug/app-debug.apk
-
+```
 
 Este archivo está incluido en este repositorio.
 
@@ -153,14 +158,15 @@ color: #264137 !important;
 🔹 3. Cambios en VS Code no se reflejaban en el emulador
 
 Solución:
-
+```
 ionic build
 npx cap sync android
+```
 
 🔹 4. Botones actuaban como “submit”
-
+```bash
 Solución: agregar type="button".
-
+```
 🔹 5. Layout no ocupaba el ancho completo
 
 Solución:
@@ -170,11 +176,12 @@ Quitar display:flex; align-items:center; del fondo y unificar diseño con .page-
 
 El APK no firmado está disponible en:
 
+```bash
 /android/app/build/outputs/apk/debug/app-debug.apk
-
+```
 
 o dentro de:
-
+```bash
 /apk
 
 👨‍💻 Autor
