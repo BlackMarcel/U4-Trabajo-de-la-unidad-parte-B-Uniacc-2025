@@ -64,7 +64,7 @@ android/app/build/outputs/apk/debug/app-debug.apk
 
 (o dentro de la carpeta /apk, según corresponda en GitHub)
 
-🧩 Componentes Ionic Utilizados
+### 🧩 Componentes Ionic Utilizados
 Entrega A
 
 ion-progress-bar
