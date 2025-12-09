@@ -1,9 +1,15 @@
 # U4-Trabajo-de-la-unidad-parte-B-Uniacc-2025
 Este es el repositorio para le trabajo de la unidad 4 Parte B, del ramo Taller de dispositivos moviles de la universidad Uniacc
+
+---
+
 📱 Mi Hábito – Aplicación Móvil Ionic/Angular
 
 Proyecto desarrollado para la Unidad 3 y Unidad 4 del curso.
 Incluye estructura completa de la aplicación, uso de componentes Ionic, navegación, estilos personalizados y generación del APK no firmado.
+
+
+---
 
 📝 Descripción General
 
