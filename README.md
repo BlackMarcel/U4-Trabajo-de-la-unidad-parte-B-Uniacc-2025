@@ -27,6 +27,8 @@ Todo el código fuente
 
 El APK no firmado, listo para instalación
 
+---
+
 🎯 Objetivos del Proyecto
 
 Implementar correctamente componentes móviles de Ionic.
@@ -68,38 +70,41 @@ mi-habito/
 android/app/build/outputs/apk/debug/app-debug.apk
 ```
 
-(o dentro de la carpeta /apk, según corresponda en GitHub)
+
+---
 
 ### 🧩 Componentes Ionic Utilizados
 Entrega A
 
-ion-progress-bar
+-ion-progress-bar
 
-ion-toggle
+-ion-toggle
 
-Botones personalizados
+-Botones personalizados
 
-ion-content, ion-header, ion-toolbar
+-ion-content, ion-header, ion-toolbar
 
-Router + navegación programática
+-Router + navegación programática
 
 Entrega B
 
-ion-segment (filtro de estadísticas)
+-ion-segment (filtro de estadísticas)
 
-Listas dinámicas con *ngFor
+-Listas dinámicas con *ngFor
 
-Toast al completar hábito
+-Toast al completar hábito
 
-Corrección de estructura global (page-container y page-background)
+-Corrección de estructura global (page-container y page-background)
 
-Eliminación completa del marco de teléfono
+-Eliminación completa del marco de teléfono
 
-Mejoras para Android/Emulador
+-Mejoras para Android/Emulador
+
+---
 
 ▶️ Cómo Ejecutar el Proyecto
 🛠 Requisitos
-
+```bash
 Node.js
 
 Ionic CLI
@@ -107,7 +112,7 @@ Ionic CLI
 Angular CLI
 
 Capacitor
-
+```
 Android Studio
 
 ▶ Ejecutar en Navegador
@@ -125,6 +130,8 @@ npx cap open android
 
 Luego, desde Android Studio:
 Run ▶
+
+---
 
 📦 Cómo Generar el APK (no firmado)
 
@@ -148,6 +155,9 @@ android/app/build/outputs/apk/debug/app-debug.apk
 ```
 
 Este archivo está incluido en este repositorio.
+
+
+---
 
 🚧 Problemas Encontrados y Soluciones
 🔹 1. Aparecía el “marco verde” del teléfono
